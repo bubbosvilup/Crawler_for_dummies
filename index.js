@@ -1,4 +1,3 @@
-// Stealth Setup
 const puppeteer = require("puppeteer-extra");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
 const randomUseragent = require("random-useragent");
@@ -13,7 +12,7 @@ let totaliVisitati = 0;
 let immaginiSalvate = 0;
 
 const charset = "abcdefghijklmnopqrstuvwxyz0123456789";
-const downloadDir = path.join(__dirname, "downloaded img");
+const downloadDir = path.join(__dirname, "downloaded_img");
 if (!fs.existsSync(downloadDir)) fs.mkdirSync(downloadDir);
 
 function generaCodiceCasuale() {
