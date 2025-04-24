@@ -26,12 +26,15 @@ cd lightshot-crawler
 npm install
 
 🧰 Future Improvements
-Proxy/Tor support
 
-Live dashboard to preview images in real-time
+[ ] Proxy/Tor support
+[ ] Live dashboard to preview images in real-time
+[ ] Image filters (OCR, text content detection, NSFW filters)
+[ ] Stats and logs tracking success/failure per bot
 
-Image filters (OCR, text content detection, NSFW filters)
+⚠️ Legal & Ethical Disclaimer
+This script is for educational and research purposes only.
+It is not intended for unauthorized scraping or privacy invasion.
+Please do not store or share private/sensitive content. Use responsibly.
 
-Stats and logs tracking success/failure per bot
-
-!Disclaimer!
+p.s do not run too many bots at one or Cloudflare will spank ya
