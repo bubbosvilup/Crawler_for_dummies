@@ -1,0 +1,27 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubbosvilup/Crawler_for_dummies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bubbosvilup/Crawler_for_dummies/issues"
+  },
+  "homepage": "https://github.com/bubbosvilup/Crawler_for_dummies#readme",
+  "dependencies": {
+    "puppeteer": "^24.7.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "random-useragent": "^0.5.0"
+  }
+}
